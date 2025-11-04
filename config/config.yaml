@@ -1,0 +1,15 @@
+server:
+  http_addr: 0.0.0.0
+  http_port: 5080
+
+auth:
+  enabled: true
+  local:
+    enabled: true
+
+telemetry:
+  enabled: false
+
+storage:
+  data_dir: /data
+  meta_store: postgres
